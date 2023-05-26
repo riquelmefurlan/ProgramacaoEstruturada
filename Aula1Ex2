@@ -1,0 +1,15 @@
+#include <cstdlib>
+#include <iostream>
+#include <locale.h>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+ 
+    char nome[20] ;
+    cout << "Digite o seu nome: \n" ;
+    cin >> nome ;
+    cout << "Você se chama: " << nome << "\n" ;
+    
+    return 0;
+}
